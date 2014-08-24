@@ -21,5 +21,6 @@ var lv_lang = {
     bigaunciems: "Bigaunciems",
     ragaciems: "Ragaciems",
     others: "Citi rajoni",
-    onAgreement: "Pēc vienošanās."
+    onAgreement: "Pēc vienošanās.",
+    pricesArea: "Izmaksas saistītas ar konteineru izvešanu no rajoniem."
 };

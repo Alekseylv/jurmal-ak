@@ -21,5 +21,6 @@ var ru_lang = {
     bigaunciems: "Бигаунциемс",
     ragaciems: "Рагациемс",
     others: "Другие",
-    onAgreement: "По договоренности с клиентом."
+    onAgreement: "По договоренности с клиентом.",
+    pricesArea: "Цены вывоз контейнеров из районов."
 };
