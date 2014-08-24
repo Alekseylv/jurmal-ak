@@ -16,11 +16,14 @@
 
         $translateProvider.preferredLanguage("lv");
 
+
     }]);
 
     angular.module('app').controller('languageCtrl', ['$translate', '$scope', function ($translate, $scope) {
+        $scope.selectedLang = $translate.use();
 
         $scope.changeLanguage = function (langKey) {
+            $scope.selectedLang = langKey;
             $translate.use(langKey);
         };
 

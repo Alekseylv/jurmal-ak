@@ -15,6 +15,8 @@
 
     <!-- Custom CSS -->
     <link href="css/business-frontpage.css" rel="stylesheet">
+    <link href="css/languages.min.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,14 +49,14 @@
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#">
-                        Language
+                        <span class="lang-sm lang-lbl-full" lang="{{selectedLang}}"></span>
                         <b class="caret"></b>
                     </a>
 
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                        <li><a ng-click="changeLanguage('en')">English</a></li>
-                        <li><a ng-click="changeLanguage('lv')">Latviešu</a></li>
-                        <li><a ng-click="changeLanguage('ru')">Русский</a></li>
+                        <li><a ng-click="changeLanguage('lv')"><span class="lang-sm lang-lbl-full" lang="lv"></span></a></li>
+                        <li><a ng-click="changeLanguage('ru')"><span class="lang-sm lang-lbl-full" lang="ru"></span></a></li>
+                        <li><a ng-click="changeLanguage('en')"><span class="lang-sm lang-lbl-full" lang="en"></span></a></li>
                     </ul>
                 </li>
             </ul>
