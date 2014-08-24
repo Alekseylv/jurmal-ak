@@ -19,5 +19,7 @@ var lv_lang = {
     kemeri: "Ķemeri",
     lapmezciems: "Lapmežciems",
     bigaunciems: "Bigaunciems",
-    ragaciems: "Ragaciems"
+    ragaciems: "Ragaciems",
+    others: "Citi rajoni",
+    onAgreement: "Pēc vienošanās."
 };

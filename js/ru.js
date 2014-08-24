@@ -19,5 +19,7 @@ var ru_lang = {
     kemeri: "Кемери",
     lapmezciems: "Лапмежцеимс",
     bigaunciems: "Бигаунциемс",
-    ragaciems: "Рагациемс"
+    ragaciems: "Рагациемс",
+    others: "Другие",
+    onAgreement: "По договоренности с клиентом."
 };
