@@ -2,21 +2,10 @@
     var app = angular.module('app', ['pascalprecht.translate']);
 
     app.config(['$translateProvider', function ($translateProvider) {
-        $translateProvider.translations("en", {
-            foo: "bar"
-        });
-
-        $translateProvider.translations("lv", {
-            foo: "bars"
-        });
-
-        $translateProvider.translations("ru", {
-            foo: "бар"
-        });
+        $translateProvider.translations("lv", lv_lang);
+        $translateProvider.translations("ru", ru_lang);
 
         $translateProvider.preferredLanguage("lv");
-
-
     }]);
 
     app.controller('languageCtrl', ['$translate', '$scope', function ($translate, $scope) {
