@@ -19,6 +19,9 @@ body {
     -o-background-size: cover;
 }
 
+thead {
+    font-weight: bold;
+}
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {

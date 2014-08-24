@@ -7,5 +7,17 @@ var lv_lang = {
     agreement: "Tālrunis līgumu slēgšanai",
     juris: "Juris",
     angela: "Anželika",
-    email: "E-pasts"
+    email: "E-pasts",
+    services: "Pakalpojumi",
+    containerRent: "Konteineru noma",
+    prices: "Cenas",
+    area: "Rajons",
+    priedaine: "Priedaine",
+    lielupe: "Lielupe - Jaundubulti",
+    pumpuri: "Pumpri - Vaivari",
+    kauguri: "Kauguri, Sloka",
+    kemeri: "Ķemeri",
+    lapmezciems: "Lapmežciems",
+    bigaunciems: "Bigaunciems",
+    ragaciems: "Ragaciems"
 };

@@ -7,5 +7,17 @@ var ru_lang = {
     agreement: "Номер для заключения договоров",
     juris: "Юрис",
     angela: "Анжелика",
-    email: "Эл. почта"
+    email: "Эл. почта",
+    services: "Услуги",
+    containerRent: "Аренда контейнеров",
+    prices: "Цены",
+    area: "Район",
+    priedaine: "Приедайне",
+    lielupe: "Лиелупе - Яундубулты",
+    pumpuri: "Пумпури - Ваивари",
+    kauguri: "Каугури, Слока",
+    kemeri: "Кемери",
+    lapmezciems: "Лапмежцеимс",
+    bigaunciems: "Бигаунциемс",
+    ragaciems: "Рагациемс"
 };
