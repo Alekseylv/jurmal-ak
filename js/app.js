@@ -18,4 +18,12 @@
 
     }]);
 
+    app.controller('popupCtrl', ['$scope', function ($scope) {
+        $scope.clickedImage = '';
+
+        $scope.openImage = function (image) {
+            $scope.clickedImage = image;
+        };
+    }]);
+
 })();
