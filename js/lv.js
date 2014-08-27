@@ -10,6 +10,8 @@ var lv_lang = {
     email: "E-pasts",
     services: "Pakalpojumi",
     containerRent: "Konteineru noma",
+    man4o4Rent: "MAN 4X4 pakalpojumi",
+    loaderRent: "Iekrāvēja JCB 520-40 pakalpojumi",
     prices: "Cenas",
     area: "Rajons",
     priedaine: "Priedaine",
@@ -22,5 +24,5 @@ var lv_lang = {
     ragaciems: "Ragaciems",
     others: "Citi rajoni",
     onAgreement: "Pēc vienošanās.",
-    pricesArea: "Izmaksas saistītas ar konteineru izvešanu no rajoniem."
+    pricesArea: "Izmaksas saistītas ar konteineru izvešanu no rajoniem (bez PVN)."
 };

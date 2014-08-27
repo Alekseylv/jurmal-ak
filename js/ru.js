@@ -10,6 +10,8 @@ var ru_lang = {
     email: "Эл. почта",
     services: "Услуги",
     containerRent: "Аренда контейнеров",
+    man4o4Rent: "Услуги MAN 4X4",
+    loaderRent: "Услуги погрузчика JCB 520-40",
     prices: "Цены",
     area: "Район",
     priedaine: "Приедайне",
@@ -22,5 +24,5 @@ var ru_lang = {
     ragaciems: "Рагациемс",
     others: "Другие",
     onAgreement: "По договоренности с клиентом.",
-    pricesArea: "Цены вывоз контейнеров из районов."
+    pricesArea: "Цены вывоз контейнеров из районов (без учета НДС)."
 };
