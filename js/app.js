@@ -25,5 +25,4 @@
             $scope.clickedImage = image;
         };
     }]);
-
 })();

@@ -25,7 +25,7 @@
     <script type="text/javascript" src="js/angular-translate.min.js"></script>
 </head>
 
-<body>
+<body ng-cloak>
 
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -44,6 +44,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="languageCtrl">
             <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#services">Services</a>
+                </li>
                 <li>
                     <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#">
                         <span class="lang-sm lang-lbl-full" lang="{{selectedLang}}"></span>
@@ -108,13 +111,13 @@
     <!-- /.row -->
 
     <hr>
-    <div class="row"><h2 class="col-lg-12">{{'services' | translate}}</h2></div>
+    <div class="row anchored" id="services"><h2 class="col-lg-12">{{'services' | translate}}</h2></div>
     <hr>
 
-    <div class="row" id="services" ng-controller="popupCtrl">
+    <div class="row" ng-controller="popupCtrl">
 
         <div id="myModal" class="modal fade col-sm-12" tabindex="-1" role="dialog">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-body">
                         <img src="{{clickedImage}}" class="img-responsive">
@@ -244,6 +247,7 @@
 
 <script src="js/jquery-1.11.0.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jqscripts.js"></script>
 
 
 </body>
