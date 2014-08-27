@@ -15,6 +15,10 @@ body {
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
+.top-buffer {
+    margin-top:30px;
+}
+
 .business-header {
     height: 80px;
     background-color: lightgray;
