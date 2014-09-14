@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Aleksejs Spuris">
+    <meta name="description" content="Celtniecības atkritumu izvešanas un savakšanas firma. Вывоз строительного мусора в специальных контейнерах. Аренда контейнеров"/>
+    <meta name="keywords" content="Celtniecības atkritumi,atkritumi,izvešana,savākšana,konteineri,konteineru izvešana,iekrāvejs,iekraušana,īre,izīre,Вывоз строительного мусора,специальные контейнеры,аренда контейнеров,телескопический погрузчик,аренда погрузчика"/>
+    <meta name="contracting authority" content="SIA Jūrmalnieks AK" />
 
     <title>Jūrmalnieks AK</title>
 
@@ -18,11 +20,7 @@
     <link href="css/languages.min.css" rel="stylesheet">
 
     <!--angular-->
-    <script type="text/javascript" src="js/lv.js"></script>
-    <script type="text/javascript" src="js/ru.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/angular-translate.min.js"></script>
 </head>
 
 <body id="start" ng-cloak>
@@ -51,15 +49,10 @@
                     <a href="#prices">{{'prices' | translate}}</a>
                 </li>
                 <li>
-                    <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#">
-                        <span class="lang-sm lang-lbl-full" lang="{{selectedLang}}"></span>
-                        <b class="caret"></b>
-                    </a>
-
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                        <li><a ng-click="changeLanguage('lv')"><span class="lang-sm lang-lbl-full" lang="lv"></span></a></li>
-                        <li><a ng-click="changeLanguage('ru')"><span class="lang-sm lang-lbl-full" lang="ru"></span></a></li>
-                    </ul>
+                    <a ng-click="changeLanguage('lv')"><span class="lang-sm" lang="lv"></span></a>
+                </li>
+                <li>
+                    <a ng-click="changeLanguage('ru')"><span class="lang-sm" lang="ru"></span></a>
                 </li>
             </ul>
         </div>
@@ -98,16 +91,12 @@
             <h2>{{"contact" | translate}}</h2>
             <address>
                 <strong>{{"order" | translate}}</strong>
-                <br>
-                +371 29506148, {{"juris" | translate}}
-                <br>
+                +371 29506148
                 <br>
                 <strong>{{"agreement" | translate}}</strong>
+                +371 29643787
                 <br>
-                +371 29643787 {{"angela" | translate}}
-                <br>
-                <br>
-                {{"email" | translate }}: <a href="mailto:#">jurmalnieksak@inbox.lv</a>
+                {{"email" | translate }}: <a href="mailto:jurmalnieksak@inbox.lv">jurmalnieksak@inbox.lv</a>
             </address>
         </div>
     </div>
@@ -135,10 +124,7 @@
 
             <h2 class="text-center">{{"containerRent" | translate}}</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>{{"containerRentText" | translate}} 5 m<sup>3</sup>, 8 m<sup>3</sup>.</p>
         </div>
         <div class="col-sm-4">
             <a data-toggle="modal" data-target="#myModal" ng-click="openImage('img/image2.jpeg')">
@@ -147,10 +133,7 @@
 
             <h2 class="text-center">{{"man4o4Rent" | translate}}</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>{{"man4o4RentText" | translate}}</p>
         </div>
         <div class="col-sm-4">
             <a data-toggle="modal" data-target="#myModal" ng-click="openImage('img/image3.jpeg')">
@@ -159,10 +142,7 @@
 
             <h2 class="text-center">{{"loaderRent" | translate}}</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p >{{"loaderRentText" | translate}} 0,7 m<sup>3</sup>. {{"loaderRentText2" | translate}}</p>
         </div>
     </div>
 
@@ -172,7 +152,26 @@
 
     <div class="row anchored top-buffer" id="prices"><h2 class="col-lg-12">{{'prices' | translate}}</h2></div>
     <div class="row">
-        <h3 class="col-lg-12">{{'pricesArea' | translate}}</h3>
+        <h3>{{'pricesArea1' | translate}}</h3>
+        <table class="table table-striped table-hover table-bordered">
+            <tbody>
+            <tr>
+                <td>{{"jcbLease" | translate}}</td>
+                <td>{{25 | currency:"€ "}} {{"unitsPerHour" | translate}}</td>
+            </tr>
+            <tr>
+                <td>{{"containerLease" | translate}}</td>
+                <td>{{"containerPricingText" | translate}} {{2 | currency:"€ "}} {{"unitsPerDay" | translate}}.</td>
+            </tr>
+            <tr>
+                <td>{{"shipping" | translate}}</td>
+                <td>{{40 | currency:"€ "}} {{"shippingPricingText1" | translate}} {{1 | currency:"€ "}}{{"shippingPricingText2" | translate}}</td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="row">
+        <h3 class="col-lg-12">{{'pricesArea2' | translate}}</h3>
         <table class="table table-striped table-hover table-bordered">
             <thead>
             <tr>
@@ -244,7 +243,7 @@
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                <p>Copyright &copy; Jūrmalnieks AK 2014</p>
+                <p class="text-right">Copyright &copy; Aleksejs Spuris</p>
             </div>
         </div>
         <!-- /.row -->
@@ -252,6 +251,11 @@
 
 </div>
 <!-- /.container -->
+
+<script type="text/javascript" src="js/lv.js"></script>
+<script type="text/javascript" src="js/ru.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/angular-translate.min.js"></script>
 
 <script src="js/jquery-1.11.0.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
