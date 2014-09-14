@@ -21,7 +21,7 @@ var lv_lang = {
     containerLease: "Konteineri",
     shipping: "Iekrāvēja piegāde",
     shippingPricingText1: "Jūrmalas robežās.",
-    shippingPricingText2: "/km ārpus Jūrmalas.",
+    shippingPricingText2: "/ km ārpus Jūrmalas.",
     containerPricingText: "Pirmās 2 diennaktis par brīvu un nākamās",
     unitsPerHour: "stundā",
     unitsPerDay: "diennaktī",

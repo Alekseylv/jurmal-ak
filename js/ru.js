@@ -21,7 +21,7 @@ var ru_lang = {
     containerLease: "Контейнеры",
     shipping: "Доставка погрузчика",
     shippingPricingText1: "по Юрмале.",
-    shippingPricingText2: "/км за пределами Юрмалы.",
+    shippingPricingText2: "/ км за пределами Юрмалы.",
     containerPricingText: "Первые 2 суток безплатно, последующие ",
     unitsPerHour: "в час",
     unitsPerDay: "в сутки",
